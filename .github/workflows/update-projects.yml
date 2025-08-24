@@ -32,10 +32,12 @@ jobs:
               .filter(r => !r.fork && !r.archived && !r.private && !EXCLUDE.has(r.name))
               .slice(0, MAX);
 
-            const lines = filtered.map(r => {
-              const desc = (r.description || 'No description').replace(/\r?\n/g, ' ').trim();
-              return `🌩️ [**${r.name}**](${r.html_url})\n${desc}\n\n![Language](https://img.shields.io/badge/Code-${encodeURIComponent(r.language || 'N/A')}-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/${USER}/${r.name}?style=flat-square&color=yellow)\n_Created on: ${new Date(r.created_at).toISOString().slice(0,10)}_\n`;
-            });
+            const lines = filtered.length > 0
+              ? filtered.map(r => {
+                  const desc = (r.description || 'No description').replace(/\r?\n/g, ' ').trim();
+                  return `🌩️ [**${r.name}**](${r.html_url})\n${desc}\n\n![Language](https://img.shields.io/badge/Code-${encodeURIComponent(r.language || 'N/A')}-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/${USER}/${r.name}?style=flat-square&color=yellow)\n_Created on: ${new Date(r.created_at).toISOString().slice(0,10)}_\n`;
+                 })
+              : ['🚀 *No projects yet — stay tuned for updates!*'];
 
             const readmePath = 'README.md';
             const start = '<!--START_SECTION:projects-->';
