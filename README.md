@@ -22,6 +22,9 @@
 
 ## 🚀 Latest Projects (auto-updating)
 <!--START_SECTION:projects-->
+- [**online_course_completion**](https://github.com/sahanathv-45/online_course_completion) — No description • Python • created 2025-08-24
+- [**aws-auto-scaling-alb**](https://github.com/sahanathv-45/aws-auto-scaling-alb) — AWS project: Configure Auto Scaling and Application Load Balancer with EC2 instances. • created 2025-08-24
+- [**aws-rds-ec2-iam**](https://github.com/sahanathv-45/aws-rds-ec2-iam) — AWS project: Launch RDS MySQL, connect from EC2, and create IAM user with custom permissions. • created 2025-08-23
 <!--END_SECTION:projects-->
 
 
