@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="C:\Users\user\Pictures\Wallpy\Github🐈\fd5e1e475f298bc38a3b261e11fcf1fc.jpg" alt="Cloud Architect Banner" width="100%"/>
+</p>
+
 # Hi there 👋, I'm Sahana B Raj
 
-🎓 **Computer Science and Engineering Student @ HKBK College of Engineering**  
+🎓 **Computer Science and Engineering Student**  
 ☁️ **Cloud & DevOps Enthusiast | Aspiring Cloud Engineer**  
 💡 Passionate about solving problems with technology and building scalable, secure cloud applications  
 
@@ -27,7 +31,6 @@
 - [**aws-rds-ec2-iam**](https://github.com/sahanathv-45/aws-rds-ec2-iam) — AWS project: Launch RDS MySQL, connect from EC2, and create IAM user with custom permissions. • created 2025-08-23
 <!--END_SECTION:projects-->
 
-
 ---
 
 ## 📈 GitHub Stats
@@ -35,20 +38,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=sahanathv-45&show_icons=true&theme=tokyonight" height="150"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahanathv-45&layout=compact&theme=tokyonight" height="150"/>
 </p>
-
----
-
-## 🏆 Achievements & Certifications
-- 🌐 **Cloud Computing – Elite (NPTEL, IIT Kharagpur)**  
-- ☁️ **AWS Solutions Architecture Simulation (Forage)**  
-- 💻 **Cloud Internships (NullClass & CodeAlpha)**  
-
----
-
-## 🌱 Currently Learning
-- Advanced **Cloud Computing & DevOps**  
-- **Automation & Infrastructure as Code (IaC)**  
-- **Data Visualization with Power BI & Tableau**  
 
 ---
 
