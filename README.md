@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="C:\Users\user\Pictures\Wallpy\Github🐈\fd5e1e475f298bc38a3b261e11fcf1fc.jpg" alt="Cloud Architect Banner" width="100%"/>
+  <img src="banner.png" alt="Cloud Architect Banner" width="100%"/>
 </p>
 
 # Hi there 👋, I'm Sahana B Raj
