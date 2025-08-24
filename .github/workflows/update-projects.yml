@@ -2,7 +2,7 @@ name: Update Latest 3 Projects
 
 on:
   schedule:
-    - cron: "30 0 * * *"  # daily at 06:00 IST (00:30 UTC)
+    - cron: "30 0 * * *"  # daily at 06:00 IST
   workflow_dispatch:
 
 permissions:
@@ -13,18 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Build list and update README
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-
             const USER = 'sahanathv-45';
-            const MAX = 3; // show exactly 3 projects
-            const EXCLUDE = new Set([USER]); // exclude profile repo itself
+            const MAX = 3;
+            const EXCLUDE = new Set([USER]);
 
             const repos = await github.paginate(
               github.rest.repos.listForUser,
@@ -37,13 +34,7 @@ jobs:
 
             const lines = filtered.map(r => {
               const desc = (r.description || 'No description').replace(/\r?\n/g, ' ').trim();
-              return `🌩️ [**${r.name}**](${r.html_url})  
-   ${desc}  
-
-   ![Language](https://img.shields.io/badge/Code-${encodeURIComponent(r.language || 'N/A')}-blue?style=flat-square) 
-   ![Stars](https://img.shields.io/github/stars/${USER}/${r.name}?style=flat-square&color=yellow)  
-   _Created on: ${new Date(r.created_at).toISOString().slice(0,10)}_  
-`;
+              return `🌩️ [**${r.name}**](${r.html_url})\n${desc}\n\n![Language](https://img.shields.io/badge/Code-${encodeURIComponent(r.language || 'N/A')}-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/${USER}/${r.name}?style=flat-square&color=yellow)\n_Created on: ${new Date(r.created_at).toISOString().slice(0,10)}_\n`;
             });
 
             const readmePath = 'README.md';
@@ -52,12 +43,8 @@ jobs:
             const newBlock = `${start}\n${lines.join('\n')}\n${end}`;
 
             let readme = fs.readFileSync(readmePath, 'utf8');
-            const pattern = new RegExp(`${start}[\\s\\S]*?${end}`);
-            if (readme.includes(start) && readme.includes(end)) {
-              readme = readme.replace(pattern, newBlock);
-            } else {
-              readme += `\n\n## 🚀 Latest Projects (auto-updating)\n${newBlock}\n`;
-            }
+            const regex = new RegExp(`${start}[\\s\\S]*?${end}`);
+            readme = regex.test(readme) ? readme.replace(regex, newBlock) : `${readme}\n\n${newBlock}`;
             fs.writeFileSync(readmePath, readme);
 
       - name: Commit changes
