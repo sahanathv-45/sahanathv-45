@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Cloud Architect Banner" width="100%"/>
+  <img src="banner.png-1" alt="Cloud Architect Banner" width="100%"/>
 </p>
 
 # Hi there 👋, I'm Sahana B Raj
