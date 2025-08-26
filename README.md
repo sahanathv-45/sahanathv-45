@@ -26,6 +26,12 @@
 
 ## 🚀 Latest Projects (auto-updating)
 <!--START_SECTION:projects-->
+🌩️ [**cloudfront-s3-product-images**](https://github.com/sahanathv-45/cloudfront-s3-product-images)
+AWS project: Serve product images via S3 and CloudFront for faster content delivery.
+
+![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/cloudfront-s3-product-images?style=flat-square&color=yellow)
+_Created on: 2025-08-25_
+
 🌩️ [**online_course_completion**](https://github.com/sahanathv-45/online_course_completion)
 No description
 
@@ -37,12 +43,6 @@ AWS project: Configure Auto Scaling and Application Load Balancer with EC2 insta
 
 ![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-auto-scaling-alb?style=flat-square&color=yellow)
 _Created on: 2025-08-24_
-
-🌩️ [**aws-rds-ec2-iam**](https://github.com/sahanathv-45/aws-rds-ec2-iam)
-AWS project: Launch RDS MySQL, connect from EC2, and create IAM user with custom permissions.
-
-![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-rds-ec2-iam?style=flat-square&color=yellow)
-_Created on: 2025-08-23_
 
 <!--END_SECTION:projects-->
 
