@@ -26,23 +26,23 @@
 
 ## 🚀 Latest Projects (auto-updating)
 <!--START_SECTION:projects-->
+🌩️ [**aws-route53-acm**](https://github.com/sahanathv-45/aws-route53-acm)
+AWS project: Configure Route 53 with a custom domain and SSL using ACM.
+
+![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-route53-acm?style=flat-square&color=yellow)
+_Created on: 2025-08-26_
+
+🌩️ [**s3-product-images-integration**](https://github.com/sahanathv-45/s3-product-images-integration)
+AWS project: Store and fetch e-commerce product images from Amazon S3.
+
+![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/s3-product-images-integration?style=flat-square&color=yellow)
+_Created on: 2025-08-26_
+
 🌩️ [**cloudfront-s3-product-images**](https://github.com/sahanathv-45/cloudfront-s3-product-images)
 AWS project: Serve product images via S3 and CloudFront for faster content delivery.
 
 ![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/cloudfront-s3-product-images?style=flat-square&color=yellow)
 _Created on: 2025-08-25_
-
-🌩️ [**online_course_completion**](https://github.com/sahanathv-45/online_course_completion)
-No description
-
-![Language](https://img.shields.io/badge/Code-Python-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/online_course_completion?style=flat-square&color=yellow)
-_Created on: 2025-08-24_
-
-🌩️ [**aws-auto-scaling-alb**](https://github.com/sahanathv-45/aws-auto-scaling-alb)
-AWS project: Configure Auto Scaling and Application Load Balancer with EC2 instances.
-
-![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-auto-scaling-alb?style=flat-square&color=yellow)
-_Created on: 2025-08-24_
 
 <!--END_SECTION:projects-->
 
