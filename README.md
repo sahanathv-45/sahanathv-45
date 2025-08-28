@@ -2,6 +2,8 @@
   <img src="banner.png" alt="Cloud Architect Banner" width="100%"/>
 </p>
 
+![Profile views](https://komarev.com/ghpvc/?username=sahanathv-45&label=Profile%20views&color=0e75b6&style=flat)
+
 # Hi there 👋, I'm Sahana B Raj
 
 🎓 **Computer Science and Engineering Student**  
