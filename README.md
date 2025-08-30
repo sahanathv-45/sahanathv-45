@@ -58,23 +58,23 @@
 
 ## 🚀 Latest Projects (auto-updating)
 <!--START_SECTION:projects-->
+🌩️ [**nullclass-aws-project**](https://github.com/sahanathv-45/nullclass-aws-project)
+AWS project: real-time website with EC2, RDS (MySQL lab), S3, CloudFront, Auto Scaling + ALB, Route 53 + ACM, and an e-commerce app deployment.
+
+![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/nullclass-aws-project?style=flat-square&color=yellow)
+_Created on: 2025-08-29_
+
+🌩️ [**aws-ec2-ecommerce**](https://github.com/sahanathv-45/aws-ec2-ecommerce)
+AWS project: Deploy an E-commerce application (EverShop) on EC2 with PostgreSQL and Node.js.
+
+![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-ec2-ecommerce?style=flat-square&color=yellow)
+_Created on: 2025-08-29_
+
 🌩️ [**aws-route53-acm**](https://github.com/sahanathv-45/aws-route53-acm)
 AWS project: Configure Route 53 with a custom domain and SSL using ACM.
 
 ![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/aws-route53-acm?style=flat-square&color=yellow)
 _Created on: 2025-08-26_
-
-🌩️ [**s3-product-images-integration**](https://github.com/sahanathv-45/s3-product-images-integration)
-AWS project: Store and fetch e-commerce product images from Amazon S3.
-
-![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/s3-product-images-integration?style=flat-square&color=yellow)
-_Created on: 2025-08-26_
-
-🌩️ [**cloudfront-s3-product-images**](https://github.com/sahanathv-45/cloudfront-s3-product-images)
-AWS project: Serve product images via S3 and CloudFront for faster content delivery.
-
-![Language](https://img.shields.io/badge/Code-N%2FA-blue?style=flat-square) ![Stars](https://img.shields.io/github/stars/sahanathv-45/cloudfront-s3-product-images?style=flat-square&color=yellow)
-_Created on: 2025-08-25_
 
 <!--END_SECTION:projects-->
 
